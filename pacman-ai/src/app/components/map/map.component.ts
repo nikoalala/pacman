@@ -61,7 +61,6 @@ export class MapComponent implements OnInit {
         this.moveGhost();
       } else if (value == PREDICT_CODE.KO) {
         console.log("Ceci est un mur...");
-        this.moveGhost();
       } else if (value == PREDICT_CODE.VICTORY) {
         console.log("Bravo !");
         this.router.navigate(['victory']);
